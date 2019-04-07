@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(0, 0, 0);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(133, 52, 42);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -52,12 +52,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: rgb(127, 195, 235)
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/Bellebackground.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -74,26 +74,26 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.7) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
+  color: rgb(91, 126, 97);
+  padding: 15px;
+  border-radius: 50%;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(255, 255, 255);
+  color: rgb(91, 126, 97);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(165, 127, 127);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -124,11 +124,6 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-}
-
-footer .copyright {
-  top: -8px;
-  font-size: .75em;
 }
 
 footer ul {
@@ -198,10 +193,13 @@ a.social:hover {
   }
 
   footer {
-    font-size: 1.3em;
+    font-size: 15px;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 20px auto;
   }
-
-}
-
+  
+  .text-block {
+    position: center;
+    background-color: rgb(85, 32, 32);
+    color: white;
+  }
