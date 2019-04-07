@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #999;
 }
 a:hover {
   color: #6633ff;
@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 3px solid white;
   transition: all .5s;
 }
@@ -77,7 +77,7 @@ header .profile-image:hover {
   transform: scale(1.7) rotate(10deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #ffffff;
   color: rgb(91, 126, 97);
   padding: 15px;
   border-radius: 50%;
@@ -93,13 +93,14 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: rgb(165, 127, 127);
+  background: rgb(223, 189, 189);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ffffff;
+  transform: scale(1.2)
 }
 
 ul.skills {
@@ -110,20 +111,25 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #66472d;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #95acbb;
 }
 
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
 }
 
 footer ul {
@@ -138,7 +144,6 @@ footer ul li {
 
 a.social {
   display: inline-block;
-  text-indent: -9999px;
   margin-left: 5px;
   width: 30px;
   height: 30px;
@@ -146,15 +151,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
-a.github {
-  background-image: url(images/github.svg);
-}
+
 a.social:hover {
   opacity: 1;
 }
@@ -193,13 +190,16 @@ a.social:hover {
   }
 
   footer {
-    font-size: 15px;
+    font-size: .8em;
     max-width: 1200px;
     margin: 20px auto;
   }
-  
-  .text-block {
-    position: center;
-    background-color: rgb(85, 32, 32);
-    color: white;
+
+  .quotation {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(172, 37, 37);
   }
+
+
+}
