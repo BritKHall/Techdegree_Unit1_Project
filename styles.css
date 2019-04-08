@@ -74,7 +74,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.7) rotate(10deg);
+  transform: scale(1.5) rotate(50deg);
 }
 .tag {
   background-color: #ffffff;
@@ -125,6 +125,15 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+}
+
+article {
+  background: rgb(190, 190, 235);
+  margin: 40px;
+  border-radius: 6px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: center;
 }
 
 footer .copyright {
@@ -200,6 +209,4 @@ a.social:hover {
     font-style: italic;
     color: rgb(172, 37, 37);
   }
-
-
 }
