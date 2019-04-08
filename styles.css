@@ -128,44 +128,12 @@ footer {
 }
 
 article {
-  background: rgb(190, 190, 235);
+  background: rgb(196, 196, 235);
   margin: 40px;
   border-radius: 6px;
   padding: 20px 40px 40px;
   max-width: 1000px;
   text-align: center;
-}
-
-footer .copyright {
-  top: -8px;
-  font-size: .75em;
-}
-
-footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-footer ul li {
-  display: inline-block;
-}
-
-a.social {
-  display: inline-block;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
-}
-
-a.social:hover {
-  opacity: 1;
-}
-.clearfix {
-  clear: both;
 }
 
 /* Styles for larger screens */
