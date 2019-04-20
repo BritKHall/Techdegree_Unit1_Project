@@ -98,10 +98,6 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ffffff;
-  transform: scale(1.2)
-}
 
 ul.skills {
   padding: 0;
